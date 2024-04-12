@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Speech Converter</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link rel="icon"  href="https://assets-global.website-files.com/64a6651cb6354a3471a10e9e/64ef82f45375b76a5b0a2919_b3f21c_5026cfcf995040439054a124865c03d0~mv2.webp">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="voiceinator">
+
+      <h1>Speech Converter</h1>
+
+      <select name="voice" id="voices">
+        <option value="">Select A Voice</option>
+      </select>
+
+      <label for="rate">Rate</label>
+      <input name="rate" type="range" min="0" max="3" value="1" step="0.1">
+
+      <label for="pitch">Pitch</label>
+
+      <input name="pitch" type="range" min="0" max="2" step="0.1">
+      <textarea name="text">Hii! Welcome to BCA Technophilia Event.
+This is the Application where the Text is converted into speech. In this, you can hear the text in six voices like Microsoft David, Mark, Zira, Google US English, Google UK English Female, Google Uk English Male .... 
+Moreover,you can also change the pitch and rate of the voices.
+I hope you Enjoyed well in this Event.
+ThankYou .</textarea>
+      <button id="stop">Stop!</button>
+      <button id="speak">Speak</button>
+
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
